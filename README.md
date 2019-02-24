@@ -1,7 +1,7 @@
 # 
 <i>Contém no repositório um projeto simples usando JQuery para consumir resultados em JSON de uma WebService de consultas de endereço via CEP.</i>
 
-´´´ JavaScript
+```JavaScript
 
         $.getJSON(url,function(json){
             $("#ilogradouro").val(json.logradouro);
@@ -12,7 +12,7 @@
         })
     });
 });
-´´´
+```
 **WebService Utilizada**: https://viacep.com.br/
 
 
